@@ -1,0 +1,55 @@
+Problem Description:
+--------------------
+
+Given an expression, find the count of each operators and print them on the screen.
+
+Expressions should be given as a string as input from the user.
+
+In an expression, supported operators include +, -, *, /, %, =. Supported operands include numerals, identifiers/ variables (a-z, A-Z).
+
+Before finding the count of each operator, you are to check whether the given expression itself is a valid one. Here are the rules that need to be followed in order for an expression to be valid:
+
+i) There should be exactly ONE assignment operator in the expression (no less, no more).
+ii) All the operators are binary; meaning, they (if used) should have exactly 2 operands.
+
+Example input/ output:
+----------------------
+
+scenario 1:
+Input: a = b + c - d * e / f + 6 - d * 3 + 20 % 5
+
+Output:
+= operator found: 1 time(s)
++ operator found: 3 time(s)
+- operator found: 2 time(s)
+* operator found: 2 time(s)
+/ operator found: 1 time(s)
+% operator found: 1 time(s)
+
+___________________________________________________
+
+scenario 2:
+Input: a = + c - d * e / + 6 - d * 3 + 20 %
+
+Output:
+Invalid Expression
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+Submission instructions:
+------------------------
+
+Solution must be in C++. You can use any built-in library function to solve the given problem.
+
+Submit only a single .CPP file. Use of OOP is not allowed. Rename the file with your AIUB student ID before uploading. 
+For example, 18-23142-2.cpp.
+
+Solution to be submitted/ uploaded before 10:55 AM in the following path in your student portal:
+Courses & Results => Compiler Design [O] => Lab Performance => Performance-1 => Upload
+
+The submission system will close after 10:55 AM. Any unsubmitted file will not be evaluated further.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+Any kind of plagiarism detected will be penalized by making sure all the parties involved get ZERO marks in this task.

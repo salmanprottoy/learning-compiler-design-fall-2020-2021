@@ -1,0 +1,42 @@
+[This file is also uploaded under the 'Files' tab in MS TEAMS as well as in student portal under Lab Performance => Performance-2]
+
+Problem Description:
+--------------------
+
+From the knowledge of how Lexical Analyzer works in a compiler, write a program that will output a tokenized statement of a statement that is given as an input from the user. Both input and output will be a string.
+
+(i) Supported operators for the input statement are +, -, *, /, %, =. 
+(ii) Supported operands for the input statement include numerals, identifiers/ variables (a-z, A-Z).
+
+After checking for the supported operands and operators, just convert it into a tokenized form like Lexical Analyzer does. 
+No need to check for further validity of the input statement.
+
+Also, remember, a token's form is: <token name, attribute value>
+
+The creation and use of a symbol table is OPTIONAL to solve this problem. If you do use a symbol table, you can use a data structure to act like a symbol table which will store the entry number, name of the component in the statement, and the generated token. Later, using that data structure/ symbol table, the tokenized statement can be generated.
+
+For example,
+
+input: a = b + c
+output: <id,1><=,2><id,3><+,4><id,5>
+
+Here, for variables (a-z, A-Z), the token names are considered as "id". For numerals and operators, the used token names are kept as they appear originally from the input statement. Attribute values are the entry numbers to the symbol table (if used); otherwise they can be generated with incrementation each time a new operand/ operator is read from the original statement.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+Submission instructions:
+------------------------
+
+Solution must be in C++. You can use any built-in library function to solve the given problem.
+
+Submit only a single .CPP file. Use of OOP is not allowed. Rename the file with your AIUB student ID before uploading. 
+For example, 18-23142-2.cpp.
+
+Solution to be submitted/ uploaded before 04:55 PM in the following path in your student portal:
+Courses & Results => Compiler Design [O] => Lab Performance => Performance-2 => Upload
+
+The submission system will close after 10:50 AM. Any unsubmitted file will not be evaluated further.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+Any kind of plagiarism detected will be penalized by making sure all the parties involved get ZERO marks in this task.
