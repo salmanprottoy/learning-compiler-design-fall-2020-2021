@@ -1,0 +1,24 @@
+Given a statement as input from the user, draw a tree where operators will be parent nodes and operands will be children node.
+
+(i) Supported operators are +, -, *, /, =. Operators are binary and right associative. Assume, all the operators have same precedence.
+(ii) Supported operands are made of English alphabets (a-z, A-Z) only. Example, x, ab, sza, etc.
+(iii) Obviously, check for validity of the statement first before you output the equivalent tree.
+
+Example input:
+a = b + c * d - f / g
+
+Example output: (look at output_tree.jpg)
+   =
+  / \
+ a   +
+    / \
+   b   *
+      / \
+     c   -
+        / \
+       d   /
+          / \
+         f   g
+
+This file is uploaded under the 'Files' tab in MS TEAMS as well as in student portal under Lab => Performance-3.
+The file is zipped together with an image of the tree so that it is less confusing how the structure of the tree is.
